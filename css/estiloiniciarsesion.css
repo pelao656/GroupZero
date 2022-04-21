@@ -1,0 +1,46 @@
+.container #Divini #BTNiniciar{
+    padding: 9px;
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    text-decoration: none;
+}
+
+
+.container #Divini{
+    margin-top: 2em;
+}
+
+.container{
+    margin-top: 2em;
+    background-color: #20254F;
+    padding: 3em;
+    box-shadow: 0 0 5px black,
+                0 0 10px black,
+                0 0 20px black ;
+}
+
+
+.container img{
+    float: right;
+    padding: 2em;
+    border-radius: 140px;
+    box-shadow: 0 0 5px black,
+                0 0 6px black,
+                0 0 10px black;
+}
+
+
+.container #Divreg{
+    margin-top: 20px;
+}
+
+.container #Divini #BTNiniciar:hover{
+    cursor: pointer;
+    background-color: rgb(52, 218, 255);
+    box-shadow: 0 0 2px rgb(52, 218, 255),
+                0 0 5px rgb(52, 218, 255),
+                0 0 9px rgb(52, 218, 255);
+    transition: 0.7s ease;
+    color: #20254F;
+}

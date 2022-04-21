@@ -1,0 +1,45 @@
+.Fotos img{
+    margin: 1em;
+    margin-top: 3em;
+    margin-left: 13%;
+    
+}
+.Fotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Filtrar li{
+    text-decoration: none;
+    list-style: none;
+}
+
+#Filtrar #navbarDropdown{
+    border: solid 1px  rgb(71, 71, 71);
+    background-color: none;
+    color: black;
+    text-align: center;
+    
+    
+}
+
+#Filtrar li:hover{
+    cursor: pointer;
+    background-color: rgb(100, 149, 165);
+    box-shadow: 0 0 5px rgb(48, 48, 48),
+                0 0 30px rgb(49, 49, 49),
+                
+                ;
+    transition: 0.3s;
+}
+
+.categorias .card .card-body #btncard:hover{
+    cursor: pointer;
+    background-color: rgb(249, 252, 255);
+}
+
+.categorias .card{
+    box-shadow: 0 0 50px black;
+    border: solid 1px black;
+}
+
